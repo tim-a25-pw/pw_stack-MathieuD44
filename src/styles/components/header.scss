@@ -1,0 +1,46 @@
+/*
+   Header
+   ========================================================================== */
+
+
+   .header .wrapper{
+    background-color:  var(--color-white);
+
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+
+
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        .icon-logo{
+            font-size: 54px;
+        }
+    }
+
+
+    ul{
+        display: flex;
+        gap: 50px ;
+
+        li{
+            list-style: none;
+            font-size: var(--font-size-nav);
+            font-weight: 700;
+            font-family: var(--font-primary);
+
+            a{
+                color: var(--color-black);
+            }
+
+            a:hover{
+                color: var(--color-primary);
+            }
+            
+        }
+    }
+
+   }

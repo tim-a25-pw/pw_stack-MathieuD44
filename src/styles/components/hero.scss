@@ -1,0 +1,26 @@
+/*
+   Hero
+   ========================================================================== */
+
+
+   .hero_media img{
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    height: 866px;
+    object-fit: cover;
+
+   }
+
+   .hero_content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 785px;
+
+    p{
+        color: var(--color-white);
+    }
+
+   }
