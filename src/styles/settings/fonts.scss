@@ -11,6 +11,7 @@
 
     /// Grosseur des textes
     --font-size-logo: #{typo(40px, 40px)};
+    --font-size-button: #{typo(14px, 16px)};
     --font-size-h1: #{typo(75px, 100px)};
     --font-size-h2: 7rem;
     --font-size-h3: 3.5rem;
@@ -27,3 +28,4 @@
 .bold{
     font-weight: 700;
 }
+
