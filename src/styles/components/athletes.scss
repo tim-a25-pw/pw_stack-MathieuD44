@@ -4,7 +4,19 @@
 
    .athletes .wrapper{
       color: var(--color-black);
-      text-align: right;
+     
 
-      max-width: 730px;
+
+      .title{
+      display: flex;
+      flex-direction: column;
+      text-align: right;
+      justify-content: right;
+      align-items: flex-end;
+
+      p{
+         max-width: 50%;
+      }
+      }
+    
    }
