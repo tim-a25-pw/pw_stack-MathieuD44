@@ -41,3 +41,20 @@
     height: 7em;
     width: 7em;
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+
+    .icon-logo {
+        font-size: 54px;
+    }
+
+    &:hover {
+        .text-logo {
+            color: var(--color-primary);
+        }
+    }
+}

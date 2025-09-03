@@ -2,56 +2,30 @@
    Header
    ========================================================================== */
 
-
-   .header .wrapper{
-    background-color:  var(--color-white);
+.header .wrapper {
+    background-color: var(--color-white);
     height: 100px;
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
     align-items: center;
 
-
-    .logo{
+    ul {
         display: flex;
-        align-items: center;
-        gap: 30px;
-        text-decoration: none;
+        gap: 50px;
 
-        .icon-logo{
-            font-size: 54px;
-        }
-
-
-        &:hover{
-        .text-logo{
-            color: var(--color-primary);
-        }
-        
-    }
-    }
-
-    
-
-
-    ul{
-        display: flex;
-        gap: 50px ;
-
-        li{
+        li {
             list-style: none;
             font-size: var(--font-size-nav);
             font-weight: 700;
             font-family: var(--font-primary);
 
-            a{
+            a {
                 color: var(--color-black);
             }
 
-            a:hover{
+            a:hover {
                 color: var(--color-primary);
             }
-            
         }
     }
-
-   }
+}

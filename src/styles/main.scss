@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;900&family=PT+Sans:wght@400;700&display=swap');
 // TOOLS
 // mixins et fonctions utilisés globalement dans le SCSS (Sass)
+@import '../../node_modules/swiper/swiper-bundle';
 @import 'tools/cover';
 @import 'tools/typo';
 
@@ -33,6 +34,8 @@
 @import 'components/athletes';
 @import 'components/cards';
 @import 'components/gallery';
+@import 'components/swiper';
+@import 'components/footer';
 
 // UTILITIES
 // Utilitaires et classes auxiliaires avec possibilité de remplacer tout ce qui précède, par exemple masquer les éléments de la page
