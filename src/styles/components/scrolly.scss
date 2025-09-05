@@ -1,0 +1,77 @@
+/* ==========================================================================
+   scrolly / component
+   ========================================================================== */
+
+.has-js /*reference has-js dans le main.js*/ {
+    [data-scrolly='fromBottom'] {
+        //déclarations pour l'élément par default
+        opacity: 0;
+        transform: translateY(60px);
+        transition: all 0.4s ease-out;
+        &.is-active {
+            //on change ce qu'il faut pour l'afficher
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    [data-scrolly='fromLeft'] {
+        //déclarations pour l'élément par default
+        opacity: 0;
+        transform: translateX(-60px);
+        transition: all 0.4s ease-out;
+        &.is-active {
+            //on change ce qu'il faut pour l'afficher
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    [data-scrolly='fromTop'] {
+        //déclarations pour l'élément par default
+        opacity: 0;
+        transform: translateY(60px);
+        transition: all 0.4s ease-out;
+        &.is-active {
+            //on change ce qu'il faut pour l'afficher
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    [data-scrolly='fromRight'] {
+        //déclarations pour l'élément par default
+        opacity: 0;
+        transform: translateX(60px);
+        transition: all 0.4s ease-out;
+        &.is-active {
+            //on change ce qu'il faut pour l'afficher
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    [data-scrolly='fromCenter'] {
+        //déclarations pour l'élément par default
+        opacity: 0;
+        transform: scaleX(0);
+        transition: all 0.4s ease-out;
+        &.is-active {
+            //on change ce qu'il faut pour l'afficher
+            opacity: 1;
+            transform: scaleX(100%);
+        }
+    }
+
+    [data-scrolly='fromBack'] {
+        //déclarations pour l'élément par default
+        opacity: 0;
+        transform: rotate(360deg);
+        transition: all 0.4s ease-out;
+        &.is-active {
+            //on change ce qu'il faut pour l'afficher
+            opacity: 1;
+            transform: rotate(0);
+        }
+    }
+}

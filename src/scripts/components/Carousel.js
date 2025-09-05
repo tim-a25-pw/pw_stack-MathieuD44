@@ -5,7 +5,7 @@ export default class Carousel {
     this.element = element;
     this.options = {
       slidesPerView: 1,
-      spaceBetween: 24,
+      spaceBetween: 2,
 
       pagination: {
         el: this.element.querySelector('.swiper-pagination'),
@@ -23,18 +23,6 @@ export default class Carousel {
     if ('split' in this.element.dataset) {
       this.options.breakpoints = {
         1335: {
-          slidesPerView: 4,
-        },
-
-        1000: {
-          slidesPerView: 3,
-        },
-
-        675: {
-          slidesPerView: 2,
-        },
-
-        100: {
           slidesPerView: 1,
         },
       };
